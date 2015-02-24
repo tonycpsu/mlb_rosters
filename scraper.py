@@ -58,6 +58,8 @@ for team in range (108,159) :
             record['name_last'] = players[i]['name_last']
             record['name_full'] = players[i]['name_full']
             record['name'] = players[i]['name_first'] + " " + players[i]['name_last']
+            record['birth_date'] = players[i]['birth_date']            
+            record['age'] = players[i]['age']
             record['jersey_number'] = players[i]['jersey_number']
             record['team_id'] = players[i]['team_id']
             record['team_code'] = players[i]['team_code']
